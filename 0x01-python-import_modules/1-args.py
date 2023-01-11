@@ -5,6 +5,6 @@ if __name__ == '__main__':
     if numarg == 1:
         print('{} argument:'.format(numarg))
     else:
-        print('{} arguments:'.format(numarg))
+        print('{} arguments.'.format(numarg))
     for i in range(1, numarg + 1):
         print('{}: {}'.format(i, sys.argv[i]))
