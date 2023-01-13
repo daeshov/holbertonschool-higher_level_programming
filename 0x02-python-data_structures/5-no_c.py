@@ -1,4 +1,8 @@
 #!/usr/bin/python3
 def no_c(my_string):
-    copy_str = [X for x in my_string if x != 'c' or X != 'C']
-    return ("".join(copy_str))
+    new_str = ""
+    if my_string:
+        for char in my_string:
+            if char != "c" and char != "C":
+                new_str += char
+    return new_str
