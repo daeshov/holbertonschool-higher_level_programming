@@ -19,7 +19,7 @@ that value is equivalent to using the ``+`` operator.
 ::
 
     >>> add_integer(100, -2)
-    -98
+    98
 
 The function also works with floating-point values.
 
