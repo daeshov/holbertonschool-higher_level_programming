@@ -76,4 +76,3 @@ Checking for too many arguments:
 	  Traceback (most recent call last):
 	  ...
 	  TypeError: print_sorted() takes 1 positional argument but 2 were given
-
