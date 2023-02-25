@@ -39,4 +39,3 @@ if __name__ == '__main__':
     except MySQLdb.Error as e:
         print("Error connecting to MySQL database: {}".format(e))
         exit(1)
-    
