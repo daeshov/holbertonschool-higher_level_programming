@@ -1,3 +1,4 @@
 #!/usr/bin/node
-
-console.log('C is fun\nPython is cool\nJavascript is amazing');
+for (const line of ['C is fun', 'Python is cool', 'Javascript is amazing']) {
+    console.log(line);
+  }
